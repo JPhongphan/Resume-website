@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+
+@font-face {
+    font-family: valoFont;
+    src: url('~@/assets/fonts/Valorant-Font.ttf') format('truetype');
+}
+@font-face {
+    font-family: youre-gone;
+    src: url('~@/assets/fonts/youre-gone.ttf') format('truetype');
+}
+:root{
+    --font-color:#333;
+    --header-color:#97FEED;
+    --content-color:#35A29F;
+}
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+h1, h2, h3{
+    color: var(--font-color);
+    font-weight: 600;
+    margin: 10px 0px 10px 0px;
+    
+}
+p{
+    color: var( --font-color);
+    font-weight: 500;
+    font-size: 16px;
+    margin: 0px 0px 10px 0px;
+}
+section{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+body{
+    position: relative;
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+}
+.container{
+    position: relative;
+    display: flex;
+    padding: 10px 30px;
+    border: 1px solid white;
+    width: 100%;
+    height: 50px;
+    top: 100px;
+    box-sizing: border-box;
+}
+.container-width75{
+    border: 1px solid white;
+    text-align: center;
+    width: 75%;
+}
+.container-width25{
+    border: 1px solid white;
+    text-align: center;
+    width: 25%;
+}
+.f-size-xx{
+    border: 1px solid white;
+    font-size: 150px;
+    font-weight: bold;
+    margin: 0px;
+}
+.f-size-x{
+    border: 1px solid white;
+    font-size: 100px;
+    font-weight: bold;
+    margin: 0px;
+}
+.row-widget{
+    border: 1px solid white;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    top: 100px;
+}
+.col-widget{
+    border: 1px solid white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* <!-- CSS Display --> */
+.flex-row-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.card-project img{
+    width: 100%; 
+    border: 1px solid rgb(226, 226, 226); 
+    border-radius: 20px; 
+    padding: 10px;
+    transition: transform .2s;
+}
+@media(min-width: 300px) and (max-width:1545px){
+    .contact-img{
+        display: none;
+    }
+    .contact-form input{
+        width: 100%;
+    }
+    .contact-form button{
+        width: 100%;
+    }
+    .intro-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .img-person{
+        margin: 20px 0px;
+        display: block;
+    }
+    .img-intro img{
+        display: none;
+    }
+    #img-container{
+        display: none;
+    }
+    .main-container h1{
+        font-size: 26px;
+    }
+    .img-header-project{
+        display: none;
+    }
+    .project-container{
+        width: 100%;
+        flex-direction: column;
+        grid-row-gap: 20px;
+    }
+    .card-project{
+        width: 100%;
+    }   
+    #Project{
+        align-items: start;
+    }
+    #Project .main-container{
+        margin: 10vh 5vh;
+    }
+    .sub-container#skill-sub-container{
+        grid-column-gap: 5px; 
+    }
+    .skill-card{
+        width: 140px;
+    }
+    .warning{
+        display: none;
+    }
+    .ham-bar{
+        display: block;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .full-memu{
+        display: flex;
+    }
+    .div-person{
+        display: none;
+    }
+    #Education .main-container{
+        margin: 7vh 5vh;
+    }
+    #Education .sub-container{
+        gap: 0px;
+    }
+    #intern-container{
+        width: 100%;
+    }
+    #img-intern, #img-congrad{
+        display: none;
+    }
+    #line-img, #QR-img{
+        display: none;
+    }
+    #QR-img-reponsive{
+        width: 150px;
+        display: block;
+    }
+    .intern-project{
+        align-items: center;
+        flex-direction: column; 
+    }
+}
+@media(min-height: 500px) and (max-height: 990px){
+    section#Project{
+        height: 150vh;
+    }
+    section#Education{
+        height: 150vh;
+    }
+    /* section#Skill{
+        height: 230vh;
+    } */
+}
