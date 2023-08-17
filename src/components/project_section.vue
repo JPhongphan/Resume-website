@@ -31,8 +31,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="sub-container warning">
-                    <div style="display: flex; flex-direction: row; align-items: center; padding: 0px 20px; background-color: #EFEFEF; width: 100%; height: 50px; margin-top: 50px; border-left: 5px solid #bdbdbd; border-radius: 10px;">
+                <div class="sub-container">
+                    <div class="warning">
                         <font-awesome-icon style="font-size: 20px;" :icon="['fas', 'circle-exclamation']" />
                         <p style="margin: 0px 10px;">"All of these projects were created for educational purposes only."</p>
                     </div>
@@ -112,4 +112,17 @@ export default {
 
 .card-project a:hover .icon-link-left {
     animation: moveLeft 1s infinite;
-}</style>
+}
+.warning{
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    padding: 0px 20px; 
+    background-color: #EFEFEF; 
+    width: 100%; 
+    height: 50px; 
+    margin-top: 50px; 
+    border-left: 5px solid #bdbdbd; 
+    border-radius: 10px;
+}
+</style>

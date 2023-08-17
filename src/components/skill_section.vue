@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="div-person">
-            <img style="width: 140px;" src="../assets/image/person.png" alt="">
+            <img id="person" style="width: 140px;" src="../assets/image/person.png" alt="">
             <p style="margin-top: 30px; font-weight: 600;">" Ready to learn new skills to develop myself and stay abreast of changes. "</p>
         </div>
     </section>

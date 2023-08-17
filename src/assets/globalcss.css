@@ -114,7 +114,7 @@ body{
     padding: 10px;
     transition: transform .2s;
 }
-@media(min-width: 300px) and (max-width:1545px){
+@media(min-width: 300px) and (max-width:580px){
     .contact-img{
         display: none;
     }
@@ -206,7 +206,59 @@ body{
         flex-direction: column; 
     }
 }
-@media(min-height: 890px) and (max-height: 990px){
+
+@media(min-width:600px) and (max-width:850px){
+    .warning{
+        width: 700px;
+    }
+    .img-header-project{
+        display: none;
+    }
+    .project-container{
+        width: 100%;
+        flex-direction: column;
+        grid-row-gap: 20px;
+    }
+    .card-project{
+        width: 100%;
+    }   
+    #Project{
+        align-items: start;
+    }
+    #Project .main-container{
+        margin: 10vh 5vh;
+    }
+    .main-container h1{
+        font-size: 30px;
+    }
+
+    .intern-project{
+        align-items: center;
+    }
+    #QR-img{
+        width: 150px;
+        height: 150px;
+    }
+    #line-img{
+        display: none;
+    }
+    #img-intern{
+        display: none;
+    }
+    #intern-container{
+        width: 100%;
+    }
+    #person{
+        width: 100px !important;
+    }
+}
+
+@media(min-height: 1000px) and (max-height: 1005px){
+    section#Project{
+        height: 150vh;
+    }
+}
+@media(min-height: 850px) and (max-height: 990px){
     section#Project{
         height: 150vh;
     }
@@ -214,11 +266,16 @@ body{
         height: 150vh;
     }
 }
-@media(min-height: 600px) and (max-height: 890px){
+@media(min-height: 600px) and (max-height: 850px){
     section#Project{
         height: 150vh;
     }
     section#Education{
         height: 190vh;
+    }
+}
+@media(min-width:820px) and (max-width:1000px) and (min-height:962px) and (max-height:1180px){
+    section#Project{
+        height: 130vh;
     }
 }
