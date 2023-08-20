@@ -41,7 +41,7 @@ section{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 body{
     position: relative;
@@ -158,9 +158,9 @@ body{
     #Project{
         align-items: start;
     }
-    #Project .main-container{
+    /* #Project .main-container{
         margin: 10vh 5vh;
-    }
+    } */
     .sub-container#skill-sub-container{
         grid-column-gap: 5px; 
     }
@@ -182,9 +182,9 @@ body{
     .div-person{
         display: none;
     }
-    #Education .main-container{
+    /* #Education .main-container{
         margin: 7vh 5vh;
-    }
+    } */
     #Education .sub-container{
         gap: 0px;
     }
@@ -208,6 +208,9 @@ body{
 }
 
 @media(min-width:600px) and (max-width:850px){
+    .contact-img{
+        display: none;
+    }
     .warning{
         width: 700px;
     }
@@ -225,9 +228,9 @@ body{
     #Project{
         align-items: start;
     }
-    #Project .main-container{
+    /* #Project .main-container{
         margin: 10vh 5vh;
-    }
+    } */
     .main-container h1{
         font-size: 30px;
     }
@@ -255,29 +258,29 @@ body{
 
 @media(min-height: 1000px) and (max-height: 1005px){
     section#Project{
-        height: 150vh;
+        height: auto;
     }
 }
 @media(min-height: 850px) and (max-height: 990px){
     section#Project{
-        height: 150vh;
+        height: auto;
     }
     section#Education{
-        height: 150vh;
+        height: auto;
     }
 }
 
 @media(min-height: 600px) and (max-height: 850px){
     section#Project{
-        height: 150vh;
+        height: auto;
     }
     section#Education{
-        height: 190vh;
+        height: auto;
     }
 }
 
 @media(min-width:820px) and (max-width:1000px) and (min-height:962px) and (max-height:1180px){
     section#Project{
-        height: 130vh;
+        height: auto;
     }
 }

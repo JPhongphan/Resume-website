@@ -4,8 +4,7 @@
             <div class="" style="display: flex; flex-direction: row;">
                 <div class="sub-container">
                     <div class="intro-section">
-                        <div class="img-person"
-                            style="width: 180px; height: 180px; background: var(--font-color); border-radius: 100px;" />
+                        <img class="img-person" style="width: 250px;" src="../assets/image/img-profile.png" alt="">
                         <h2>🎉 Hello my name is Phonphan Prangmas</h2>
                         <h1>Front End Developer</h1>
                         <p>"If you are looking for a team member for development, <br>I am confident that you have found the right person."</p>
@@ -14,7 +13,7 @@
                 </div>
                 <div class="img-intro" style="display: flex; align-items: center; background-color: rgb(255, 255, 255);">
                     <img style="width: 250px;"
-                        src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Ski_trail_rating_symbol_black_circle.png"
+                        src="../assets/image/img-profile.png"
                         alt="">
                 </div>
             </div>
@@ -81,11 +80,10 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 25vh 5vh;
     width: 100%;
-    height: max-content;
     border: 1px solid white;
     gap: 20px;
+    padding: 65px  25px;
 }
 
 .sub-container {

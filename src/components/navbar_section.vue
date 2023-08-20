@@ -1,6 +1,6 @@
 <template>
     <div class="navbar">
-        <h1 style="font-size: 26px;">navbar</h1>
+        <img class="logo" src="../assets/image/P.png" alt="">
         <div class="nav-menu">
             <a href="#">Home</a>
             <a href="#Education">Education</a>
@@ -36,6 +36,10 @@ export default {
 }
 </script>
 <style>
+.logo{
+    margin: 10px 0px;
+    width: 150px;
+}
 .navbar {
     z-index: 9999;
     width: 100%;
@@ -44,7 +48,7 @@ export default {
     border: 1px solid #f3f3f3;
     justify-content: space-between;
     align-items: center;
-    padding: 0 33px;
+    padding: 0 28px;
     display: flex;
     position: fixed;
     top: 0;

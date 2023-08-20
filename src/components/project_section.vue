@@ -4,9 +4,7 @@
             <div class="sub-container" style="display: flex; flex-direction: row; grid-column-gap: 20px;">
                 <div style="display: flex; flex-direction: column;">
                     <h2 class="topic-header">My Projects</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nostrum sunt harum repellat est
-                        soluta nemo vero quidem, asperiores perspiciatis amet quas consectetur velit odit fugiat natus!
-                        Praesentium, corporis laudantium!</p>
+                    <p>The entire project is for educational purposes, including practicing the use of tools and frameworks, with a focus on the Front-End Web application.</p>
                     <a class="a_link" style="display: flex; flex-direction: row; align-items: center; gap: 8px; margin-bottom: 10px;"
                         href="https://github.com/JPhongphan" target="_blank">
                         <p>View all of my projects</p>
