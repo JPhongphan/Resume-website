@@ -1,8 +1,8 @@
 <template>
     <div class="navbar">
-        <img class="logo" src="../assets/image/P.png" alt="">
+        <img href="#" class="logo" src="../assets/image/P.png" alt="" @click="goToHomePage">
         <div class="nav-menu">
-            <a href="#">Home</a>
+            <a href="#Intro">Home</a>
             <a href="#Education">Education</a>
             <a href="#Skill">Skill</a>
             <a href="#Project">Projects</a>
@@ -32,11 +32,15 @@ export default {
                 fullMenuElement.style.top = '-100%';
             }
         },
+        goToHomePage() {
+            window.location.href = '/'
+        },
     },
 }
 </script>
 <style>
 .logo{
+    cursor: pointer;
     margin: 10px 0px;
     width: 150px;
 }
