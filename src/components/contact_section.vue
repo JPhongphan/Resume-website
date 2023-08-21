@@ -1,43 +1,43 @@
 <template>
     <section id="Contact">
         <div class="main-container" style="flex-direction: column; justify-content: flex-start; grid-row-gap: 0px;">
-            <div class="" style="display: flex; flex-direction: row; align-items: center; gap: 50px;">
+            <div style="display: flex; flex-direction: row; align-items: center; gap: 50px;">
                 <img data-aos="zoom-out" data-aos-duration="700" src="https://sv1.picz.in.th/images/2023/08/11/MF8hX9.png" alt="" class="contact-img">
                 <div class="sub-container">
-                <h2 class="topic-header" data-aos="fade-left" data-aos-duration="700">Contact</h2>
-                <p data-aos="fade-left" data-aos-duration="700">Come join the event together and then let me know by sending me a message.</p>
-                <form data-aos="fade-left" data-aos-duration="700" class="contact-form" action="" style="display: flex; flex-direction: column;" @submit.prevent="sendEmail">
-                    <label>Email Address</label>
-                    <input type="email" name="email" id="email"  v-model="email" placeholder="example@gmail.com" required>
-                    <label>Name</label>
-                    <input type="text" name="name" id="name" v-model="name" placeholder="John Doe" required>
-                    <label>Message</label>
-                    <input id="message" name="message" v-model="message" placeholder="Contact message . . ." required>
-                    <button type="submit">Submit</button>
-                </form>
-                <div class="icon-contact">
-                    <a data-aos="fade-up" data-aos-duration="900" href="https://www.facebook.com/profile.php?id=100090657341253" target="_blank">
-                        <div class="icon">
-                            <font-awesome-icon :icon="['fab', 'facebook']" />
-                        </div>
-                    </a>
-                    <a data-aos="fade-up" data-aos-duration="1100" href="https://www.twitch.tv/nuengphann" target="_blank">
-                        <div class="icon">
-                            <font-awesome-icon :icon="['fab', 'twitch']" style="font-size: 38px;"/>
-                        </div>
-                    </a>
-                    <a data-aos="fade-up" data-aos-duration="1300" href="https://www.youtube.com/" target="_blank">
-                        <div class="icon">
-                            <font-awesome-icon :icon="['fab', 'youtube']" style="font-size: 38px;"/>
-                        </div>
-                    </a>
-                    <a data-aos="fade-up" data-aos-duration="1500" href="https://github.com/JPhongphan" target="_blank">
-                        <div class="icon">
-                            <font-awesome-icon :icon="['fab', 'github']" />
-                        </div>
-                    </a>
+                    <h2 class="topic-header" data-aos="fade-up" data-aos-duration="700">Contact</h2>
+                    <p data-aos="fade-up" data-aos-duration="700">Come join the event together and then let me know by sending me a message.</p>
+                    <form data-aos="fade-up" data-aos-duration="700" class="contact-form" action="" style="display: flex; flex-direction: column;" @submit.prevent="sendEmail">
+                        <label>Email Address</label>
+                        <input type="email" name="email" id="email"  v-model="email" placeholder="example@gmail.com" required>
+                        <label>Name</label>
+                        <input type="text" name="name" id="name" v-model="name" placeholder="John Doe" required>
+                        <label>Message</label>
+                        <input id="message" name="message" v-model="message" placeholder="Contact message . . ." required>
+                        <button type="submit">Submit</button>
+                    </form>
+                    <div class="icon-contact">
+                        <a data-aos="fade-up" data-aos-duration="900" href="https://www.facebook.com/profile.php?id=100090657341253" target="_blank">
+                            <div class="icon">
+                                <font-awesome-icon :icon="['fab', 'facebook']" />
+                            </div>
+                        </a>
+                        <a data-aos="fade-up" data-aos-duration="1100" href="https://www.twitch.tv/nuengphann" target="_blank">
+                            <div class="icon">
+                                <font-awesome-icon :icon="['fab', 'twitch']" style="font-size: 38px;"/>
+                            </div>
+                        </a>
+                        <a data-aos="fade-up" data-aos-duration="1300" href="https://www.youtube.com/" target="_blank">
+                            <div class="icon">
+                                <font-awesome-icon :icon="['fab', 'youtube']" style="font-size: 38px;"/>
+                            </div>
+                        </a>
+                        <a data-aos="fade-up" data-aos-duration="1500" href="https://github.com/JPhongphan" target="_blank">
+                            <div class="icon">
+                                <font-awesome-icon :icon="['fab', 'github']" />
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </div>
             </div>
         </div>
     </section>
