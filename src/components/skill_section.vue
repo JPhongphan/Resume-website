@@ -10,8 +10,8 @@
             </div>
         </div>
         <div class="div-person">
-            <img id="person" data-aos="fade-right" data-aos-duration="900" style="width: 140px;" src="../assets/image/person.png" alt="">
-            <p style="margin-top: 30px; font-weight: 600;" data-aos="fade-up" data-aos-duration="900">" Ready to learn new skills to develop myself and stay abreast of changes. "</p>
+            <img id="person" data-aos="fade-right" data-aos-duration="900" data-aos-offset="10" style="width: 140px;" src="../assets/image/person.png" alt="">
+            <p style="margin-top: 30px; font-weight: 600;" data-aos="fade-up" data-aos-duration="900" data-aos-offset="10">" Ready to learn new skills to develop myself and stay abreast of changes. "</p>
         </div>
     </section>
 </template>
