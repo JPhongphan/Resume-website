@@ -1,7 +1,7 @@
 <template>
     <section id="Project">
         <div class="main-container" style="flex-direction: column; justify-content: flex-start; grid-row-gap: 0px;">
-            <div class="sub-container" style="display: flex; flex-direction: row; grid-column-gap: 20px;">
+            <div class="sub-container" style="display: flex; flex-direction: row; grid-column-gap: 20px;" data-aos="zoom-in" data-aos-duration="700">
                 <div style="display: flex; flex-direction: column;">
                     <h2 class="topic-header">My Projects</h2>
                     <p>The entire project is for educational purposes, including practicing the use of tools and frameworks, with a focus on the Front-End Web application.</p>
@@ -16,7 +16,7 @@
             </div>
             <div class="sub-container">
                 <div class="project-container">
-                    <div class="card-project" v-for="(project, index) in projects" :key="index">
+                    <div data-aos="fade-right" :data-aos-delay="project.time" class="card-project" v-for="(project, index) in projects" :key="index">
                         <img  style=""
                             :src="project.img" alt="">
                         <h3>{{ project.name }}</h3>
@@ -30,7 +30,7 @@
                     </div>
                 </div>
                 <div class="sub-container">
-                    <div class="warning">
+                    <div class="warning" data-aos="fade-left" data-aos-duration="700">
                         <font-awesome-icon style="font-size: 20px;" :icon="['fas', 'circle-exclamation']" />
                         <p style="margin: 0px 10px;">"All of these projects were created for educational purposes only."</p>
                     </div>
@@ -49,12 +49,14 @@ export default {
                     img: 'https://sv1.picz.in.th/images/2023/07/29/M6Ycs1.png',
                     url: 'https://phongphan-fake-api-store.vercel.app/',
                     descrip: 'This website is dedicated to displaying product information from the Fake Store API.',
+                    time:100,
                 },
                 project2: {
                     name: 'PokeDex',
                     img: 'https://sv1.picz.in.th/images/2023/07/30/M6QRtR.png',
                     url: 'https://phongphan-pokedex.vercel.app/',
                     descrip: 'This website is about pre-evolution Pokémon data using information sourced from the PokeAPI',
+                    time:250,
                 }
             }
         }

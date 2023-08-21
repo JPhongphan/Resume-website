@@ -4,15 +4,17 @@
             <div class="" style="display: flex; flex-direction: row;">
                 <div class="sub-container">
                     <div class="intro-section">
-                        <img class="img-person" style="width: 250px;" src="../assets/image/img-profile.png" alt="">
-                        <h2>🎉 Hello my name is Phonphan Prangmas</h2>
-                        <h1>Front End Developer</h1>
-                        <p>"If you are looking for a team member for development, <br>I am confident that you have found the right person."</p>
-                        <button class="button-style" @click="scrollToContact">Contact Me</button>
+                        <img data-aos="fade-down" data-aos-duration="700" class="img-person" style="width: 250px;" src="../assets/image/img-profile.png" alt="">
+                        <div data-aos="fade-right" data-aos-duration="700">
+                            <h2>🎉 Hello my name is Phonphan Prangmas</h2>
+                            <h1>Front End Developer</h1>
+                            <p>"If you are looking for a team member for development, <br>I am confident that you have found the right person."</p>
+                            <button class="button-style" @click="scrollToContact">Contact Me</button>
+                        </div>
                     </div>
                 </div>
                 <div class="img-intro" style="display: flex; align-items: center; background-color: rgb(255, 255, 255);">
-                    <img style="width: 250px;"
+                    <img data-aos="fade-left" data-aos-duration="700" style="width: 250px;"
                         src="../assets/image/img-profile.png"
                         alt="">
                 </div>

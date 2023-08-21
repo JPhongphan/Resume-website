@@ -1,8 +1,8 @@
 <template>
     <section id="Education">
-        <div class="main-container">
+        <div class="main-container" data-aos="fade-up"  data-aos-offset="500" data-aos-duration="700">
             <div class="sub-container" style="display: flex; flex-direction: column; gap: 20px;">
-                <div style="display: flex; flex-direction: row; justify-content: center;">
+                <div  style="display: flex; flex-direction: row; justify-content: center;">
                     <img id="img-congrad" style="width: 250px; margin: 0px 20px;" src="../assets/image/congrad.png" alt="">
                     <div>
                         <h2 class="topic-header">My Education</h2>

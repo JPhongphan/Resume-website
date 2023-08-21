@@ -1,17 +1,17 @@
 <template>
     <section id="Skill">
         <div class="main-container" style="border: #F7F7FA; flex-direction: column;">
-            <h2 class="topic-header">My Skill</h2>
+            <h2 class="topic-header" data-aos="fade-down" data-aos-duration="700">My Skill</h2>
             <div class="sub-container" id="skill-sub-container">
-                <div v-for="(skill, index) in skill_imgs " :key="index"  class="skill-card">
+                <div data-aos="fade-up" data-aos-duration="700" v-for="(skill, index) in skill_imgs " :key="index"  class="skill-card">
                     <img class="skill-img" :src="skill.img" alt="">
                     <p style="padding-top: 5px;">{{ skill.percent }}</p>
                 </div>
             </div>
         </div>
         <div class="div-person">
-            <img id="person" style="width: 140px;" src="../assets/image/person.png" alt="">
-            <p style="margin-top: 30px; font-weight: 600;">" Ready to learn new skills to develop myself and stay abreast of changes. "</p>
+            <img id="person" data-aos="fade-right" data-aos-duration="900" style="width: 140px;" src="../assets/image/person.png" alt="">
+            <p style="margin-top: 30px; font-weight: 600;" data-aos="fade-up" data-aos-duration="900">" Ready to learn new skills to develop myself and stay abreast of changes. "</p>
         </div>
     </section>
 </template>
